@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vegan Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../Vegan Restaurant Project/Vegan-Restaurant.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Russo+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header section start -->
+    <div class="container-fluid text-center bg-dark sticky-top" style="height: auto;">
+  <div class="row pt-2">
+    <div class="col-12 d-flex justify-content-between align-items-center">
+      <a href="../Vegan Restaurant Project/Vegan-Restaurant.html" class="mx-auto">
+        <h1 class="fw-bolder title display-1 green-text">GREEN <span class="text-dark green-outline">CUISINE</span></h1>
+      </a>
+      <div class="d-md-none d-block">
+        <button class="navbar-toggler navbar-toggler-color mb-2 mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+    <div class="col-12">
+      <nav class="navbar navbar-expand-md navbar-light fs-6 fw-bolder">
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link green-text-no custom-green-link" href="../Vegan Restaurant Project/Menu.html">MENUS</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link green-text-no custom-green-link" href="../Vegan Restaurant Project/H&L.html">HOURS & LOCATION</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link green-text-no custom-green-link" href="../Vegan Restaurant Project/Catering.html">CATERING</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link green-text-no custom-green-link" href="../Vegan Restaurant Project/Happenings.html">HAPPENINGS</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link green-text-no custom-green-link" href="../Vegan Restaurant Project/Our Story.html">OUR STORY</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link green-text-no custom-green-link" href="../Vegan Restaurant Project/Order Online.html">ORDER ONLINE</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn border-green-line border-2 rounded-0 fs-6 fw-bold green-text-no custom-green-link" data-bs-toggle="modal" data-bs-target="#reservationModal">RESERVATIONS</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="modal fade" id="reservationModal" tabindex="-1" aria-labelledby="reservationModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content green-back rounded-0 border border-dark border-3">
+      <div class="modal-header border-dark border-bottom border-2">
+        <h5 class="modal-title fs-2" id="reservationModalLabel">Make a Reservation</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="mb-3">
+            <label for="date" class="form-label">Date</label>
+            <input type="date" class="form-control" id="date" placeholder="Enter the date" required>
+          </div>
+          <div class="mb-3">
+            <label for="time" class="form-label">Time</label>
+            <input type="time" class="form-control" id="time" placeholder="Enter the time" required>
+          </div>
+          <div class="mb-3">
+            <label for="guests" class="form-label">Number of Guests</label>
+            <input type="number" class="form-control" id="guests" min="1" placeholder="Enter number of guests" required>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer border-dark border-top border-2">
+        <button type="button" class="btn border border-black border-2 rounded-0 fs-6 fw-bold" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn border border-black border-2 rounded-0 fs-6 fw-bold">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Header section end -->
+
+    <!-- Topic section start -->
+    <div class="container-fluid green-back">
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-sm-12 text-center mt-5">
+          <h2>MENUS</h2>
+          <h6>A Culinary Tour of Vegan BBQ Traditions From Around the World
+            1.8 million years ago, humans first began cooking with fire, and today, we continue this tradition with a delicious twist! Explore the vast world of vegan BBQ flavors from around the globe.</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col my-2 text-center">
+          <button type="button" class="btn border border-black border-2 rounded-0 fs-6 fw-bold">MENU</button>
+          <button type="button" class="btn border border-black border-2 rounded-0 fs-6 fw-bold">SPECIALS</button>
+          <button type="button" class="btn border border-black border-2 rounded-0 fs-6 fw-bold">CATERING</button>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-sm-12 text-center mt-5 makebold">
+          <h6>Discover our delicious vegan creations on Toast! Follow us for weekly specials and exciting plant-based twists on classic dishes.</h6>
+          <button type="button" class="btn border border-black border-2 rounded-0 fs-6 fw-bold mt-2">ORDER NOW!</button>
+        </div>
+      </div>
+    </div>
+    <!-- Topic section end -->
+
+    <!-- Start of Menu section -->
+    <div class="container-fluid green-back menu">
+  <div class="row justify-content-center justify-space-around">
+    <div class="col-md-4 col-sm-12 my-3">
+      <h1>PLATTERS</h1>
+      <p>Perfect for sharing! Choose your favorites from our plant-based food selection and build your own feast.</p>
+      <img class="border-0 shadow-sm my-3" src="../Images/Menu_Food (5).png">
+      <h5>BBQ JACKFRUIT PLATTER</h5>
+      <p>Tender BBQ jackfruit served with crispy Texas toast and tangy pickles</p>
+
+      <h5>CRISPY TOFU & SESAME EDAMAME PLATTER</h5>
+      <p>Golden crispy tofu paired with sesame-coated edamame for a protein-packed delight</p>
+
+      <h5>CHIPOTLE SEITAN NACHOS PLATTER</h5>
+      <p>Spicy chipotle seitan atop crispy nacho chips with an array of fresh toppings</p>
+
+      <h5>BBQ OYSTER MUSHROOM FEAST</h5>
+      <p>Smoky BBQ oyster mushrooms served with a unique dipping sauce and special toppings</p>
+
+      <h5>GLOBAL GRAINS & GREENS PLATTER</h5>
+      <p>A diverse mix of nutritious grains and fresh greens from around the world</p>
+
+      <h5>VEGGIE SAUSAGE LINK MEDLEY</h5>
+      <p>Assorted plant-based sausage links bursting with savory flavors</p>
+
+      <h5>SPICY FIESTA PLATTER</h5>
+      <p>A colorful array of spicy plant-based delights perfect for any celebration</p>
+
+      <h1 class="border-dark border-3 border-top mt-4">ROLLS</h1>
+      <p>Made fresh daily, oven-toasted and served warm. Sold individually.</p>
+      <img class="border-0 shadow-sm my-3" src="../Images/Menu_Food (2).png">
+      <h5>BBQ JACKFRUIT DINNER ROLL</h5>
+      <p>Savory BBQ jackfruit nestled in a warm dinner roll with tangy BBQ sauce</p>
+
+      <h5>SESAME GINGER EDAMAME ROLL</h5>
+      <p>Sesame and ginger-infused edamame wrapped in a delicate wrapper</p>
+
+      <h5>SPICY CHIPOTLE CAULIFLOWER ROLL</h5>
+      <p>Spicy chipotle-coated cauliflower florets wrapped in a soft tortilla</p>
+
+      <h5>SUN-DRIED TOMATO AND HERB DINNER ROLL</h5>
+      <p>Rich sun-dried tomatoes and aromatic herbs baked into a fluffy dinner roll</p>
+
+      <h5>VEGAN GARLIC ROLL</h5>
+      <p>Soft roll brushed with vegan butter and packed with garlic and herb flavors</p>
+      <h1 class="border-dark border-3 border-top mt-4">COMBO'S</h1>
+      <p>Perfect for sharing! Choose your favorites. Served with Texas toast & pickles.</p>
+      <img class="border-0 shadow-sm my-3" src="../Images/Menu_Food (3).png">
+      <h5>POWER PROTEIN COMBO</h5>
+      <p>A protein-packed selection of our best plant-based offerings for maximum energy</p>
+
+      <h5>RAINBOW VEGGIE COMBO</h5>
+      <p>A colorful assortment of fresh vegetables prepared in various delicious ways</p>
+
+      <h5>SOUTHWESTERN FIESTA COMBO</h5>
+      <p>Spicy and zesty Southwestern-inspired dishes that bring the heat</p>
+
+      <h5>CLEAN GREENS COMBO</h5>
+      <p>A refreshing combination of nutrient-rich greens prepared to perfection</p>
+
+      <h5>BUDDHA BOWL COMBO</h5>
+      <p>Nourishing and balanced bowls inspired by traditional Buddha bowls</p>
+
+      <h5>HEARTY HARVEST COMBO</h5>
+      <p>A satisfying mix of seasonal vegetables and grains celebrating nature's bounty</p>
+    </div>
+    <div class="col-md-4 col-sm-12 my-3">
+      <h1>SANDWICH</h1>
+      <p>Made fresh daily, all served on toasted bread with a side pickle. Sold individually.</p>
+      <img class="border-0 shadow-sm my-3" src="../Images/Menu_Food (1).png">
+      <h5>VEGAN GRILLED SANDWICH</h5>
+      <p>Classic grilled sandwich with a vegan twist, packed with savory plant-based fillings</p>
+
+      <h5>MEDITERRANEAN FALAFEL SANDWICH</h5>
+      <p>Crispy falafel with fresh Mediterranean toppings in a warm pita</p>
+
+      <h5>ROASTED VEGGIE AND HUMMUS SANDWICH</h5>
+      <p>Flavorful roasted vegetables paired with creamy hummus on toasted bread</p>
+
+      <h5>CLASSIC AVOCADO TOAST SANDWICH</h5>
+      <p>Creamy avocado spread on artisanal toast with gourmet toppings</p>
+
+      <h5>CURRIED CHICKPEA SALAD SANDWICH</h5>
+      <p>Spicy curried chickpea salad nestled between slices of fresh bread</p>
+      <h1 class="border-dark border-3 border-top mt-4">BURGER</h1>
+      <p>Freshly griddled daily, all served on toasted buns with pickles. Sold by the patty.</p>
+      <img class="border-0 shadow-sm my-3" src="../Images/Menu_Food (6).png">
+      <h5>BLACK BEAN & QUINOA BURGER</h5>
+      <p>Hearty black bean and quinoa patty topped with fresh veggies on a toasted bun</p>
+
+      <h5>PORTOBELLO MUSHROOM BURGER</h5>
+      <p>Juicy grilled portobello cap served as a meaty, plant-based burger alternative</p>
+
+      <h5>SPICY CHICKPEA BURGER</h5>
+      <p>Zesty chickpea patty with a kick of heat, served on a soft bun with cool toppings</p>
+
+      <h5>TERIYAKI TOFU BURGER</h5>
+      <p>Grilled teriyaki-glazed tofu steak on a bun with Asian-inspired toppings</p>
+
+      <h5>SOUTHWEST BLACK BEAN BURGER</h5>
+      <p>Smoky Southwest-spiced black bean patty with fresh, zesty toppings</p>
+
+      <h5>SMASHED AVOCADO BURGER</h5>
+      <p>Crispy patty topped with creamy smashed avocado and fresh garnishes</p>
+
+      <h5>KIMCHI CAULIFLOWER BURGER</h5>
+      <p>Spicy kimchi-infused cauliflower patty with Korean-inspired toppings</p>
+      <h1 class="border-dark border-3 border-top mt-4">BOWLS</h1>
+      <p>Our hearty vegan bowls are brimming with flavor. Get yours smoked fresh daily!</p>
+      <img class="border-0 shadow-sm my-3" src="../Images/Menu_Food (4).png">
+      <h5>CALIFORNIA SUNSHINE CITRUS BOWL</h5>
+      <p>Bright and refreshing bowl featuring citrus fruits and California-inspired ingredients</p>
+
+      <h5>MEDITERRANEAN FALAFEL FEAST BOWL</h5>
+      <p>Hearty bowl with crispy falafel and an array of Mediterranean flavors</p>
+
+      <h5>EDAMAME & AVOCADO CRUNCH BOWL</h5>
+      <p>Protein-rich edamame and creamy avocado with added crunchy elements</p>
+
+      <h5>SPICY THAI PEANUT NOODLE BOWL</h5>
+      <p>Flavorful noodles tossed in spicy Thai peanut sauce with fresh vegetables</p>
+
+      <h5>COZY AUTUMN HARVEST BOWL</h5>
+      <p>Warm and comforting bowl featuring seasonal autumn vegetables and grains</p>
+      <h1 class="border-dark border-3 border-top mt-4">SALAD</h1>
+      <p>Freshly tossed daily, all served with your choice of dressing. Choose your size!</p>
+      <img class="border-0 shadow-sm my-3" src="../Images/Menu_Food (7).png">
+      <h5>MEDITERRANEAN QUINOA SALAD</h5>
+      <p>Protein-packed quinoa with fresh Mediterranean vegetables and herbs</p>
+
+      <h5>SOUTHWESTERN BLACK BEAN SALAD</h5>
+      <p>Zesty salad with black beans, corn, and Southwestern-inspired dressing</p>
+
+      <h5>WINTER CITRUS & GREENS SALAD</h5>
+      <p>Refreshing mix of winter citrus fruits atop a bed of crisp seasonal greens</p>
+
+      <h5>SESAME GINGER EDAMAME SALAD</h5>
+      <p>Crunchy edamame tossed with sesame seeds and ginger dressing over fresh greens</p>
+
+      <h5>RAINBOW VEGGIE FIESTA SALAD</h5>
+      <p>Vibrant assortment of colorful vegetables in a festive, flavor-packed salad
+
+      <h5>POWERHOUSE PROTEIN SALAD</h5>
+      <p>Nutrient-dense salad loaded with plant-based proteins for maximum energy</p>
+
+      <h5>TROPICAL ISLAND SALAD</h5>
+      <p>Exotic mix of tropical fruits and vegetables for a taste of island paradise</p>
+
+    </div>
+  </div>
+</div>
+    <!-- End of Menu section -->
+
+    <!-- Awards section start -->
+    <footer class="container-fluid bg-dark py-4">
+  <div class="row align-items-center">
+    <div class="col-lg-5 col-md-6 mb-4 mb-md-0 text-center text-md-start">
+      <h1 class="fw-bolder title display-4 green-text">GREEN <span class="text-dark green-outline">CUISINE</span></h1>
+      <div class="mt-3">
+        <a href="#" class="text-decoration-none me-3"><i class="fa-brands fa-instagram icon green-text-no"></i></a>
+        <a href="#" class="text-decoration-none me-3"><i class="fa-brands fa-facebook icon green-text-no"></i></a>
+        <a href="#" class="text-decoration-none"><i class="fa-brands fa-youtube icon green-text-no"></i></a>
+      </div>
+    </div>
+    <div class="col-lg-7 col-md-6">
+      <ul class="list-unstyled d-flex flex-wrap justify-content-center justify-content-md-end mb-0">
+        <li class="mx-2 my-2"><a class="nav-link green-text-no" href="#">Our Story</a></li>
+        <li class="mx-2 my-2"><a class="nav-link green-text-no" href="#">Privacy Policy</a></li>
+        <li class="mx-2 my-2"><a class="nav-link green-text-no" href="#">Locations</a></li>
+        <li class="mx-2 my-2"><a class="nav-link green-text-no" href="#">Awards</a></li>
+        <li class="mx-2 my-2"><a class="nav-link green-text-no" href="#">Careers</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+    <!-- Awards section end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

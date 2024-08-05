@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vegan Restaurant-Online Order</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../Vegan Restaurant Project/Vegan-Restaurant.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid text-center bg-dark sticky-top" style="height: auto;">
+  <div class="row pt-2">
+    <div class="col-12 d-flex justify-content-between align-items-center">
+      <a href="../Vegan Restaurant Project/Vegan-Restaurant.html" class="mx-auto">
+        <h1 class="fw-bolder title display-1 green-text">GREEN <span class="text-dark green-outline">CUISINE</span></h1>
+      </a>
+      <div class="d-md-none d-block">
+        <button class="navbar-toggler navbar-toggler-color mb-2 mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+    <div class="col-12">
+      <nav class="navbar navbar-expand-md navbar-light fs-6 fw-bolder">
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link green-text-no custom-green-link" href="../Vegan Restaurant Project/Menu.html">MENUS</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link green-text-no custom-green-link" href="../Vegan Restaurant Project/H&L.html">HOURS & LOCATION</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link green-text-no custom-green-link" href="../Vegan Restaurant Project/Catering.html">CATERING</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link green-text-no custom-green-link" href="../Vegan Restaurant Project/Happenings.html">HAPPENINGS</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link green-text-no custom-green-link" href="../Vegan Restaurant Project/Our Story.html">OUR STORY</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link green-text-no custom-green-link" href="../Vegan Restaurant Project/Order Online.html">ORDER ONLINE</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn border-green-line border-2 rounded-0 fs-6 fw-bold green-text-no custom-green-link" data-bs-toggle="modal" data-bs-target="#reservationModal">RESERVATIONS</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="reservationModal" tabindex="-1" aria-labelledby="reservationModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content green-back rounded-0 border border-dark border-3">
+      <div class="modal-header border-dark border-bottom border-2">
+        <h5 class="modal-title fs-2" id="reservationModalLabel">Make a Reservation</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="mb-3">
+            <label for="date" class="form-label">Date</label>
+            <input type="date" class="form-control" id="date" placeholder="Enter the date" required>
+          </div>
+          <div class="mb-3">
+            <label for="time" class="form-label">Time</label>
+            <input type="time" class="form-control" id="time" placeholder="Enter the time" required>
+          </div>
+          <div class="mb-3">
+            <label for="guests" class="form-label">Number of Guests</label>
+            <input type="number" class="form-control" id="guests" min="1" placeholder="Enter number of guests" required>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer border-dark border-top border-2">
+        <button type="button" class="btn border border-black border-2 rounded-0 fs-6 fw-bold" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" class="btn border border-black border-2 rounded-0 fs-6 fw-bold">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Order Online -->
+<div class="container-fluid green-back">
+  <div class="row justify-content-center">
+    <div class="col-md-8 mt-4">
+      <h1 class="display-1 fw-bold"> MAKE AN ONLINE ORDER</h1>
+    </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-md-6 bg-dark my-5 rounded-0 border border-white border-5">
+                <form class="white">
+                    <div class="mb-3 my-2">
+                        <label for="name" class="form-label green-text-no">Name</label>
+                        <input type="text" class="form-control" id="nameInput" name="name" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3 my-2">
+                        <label for="phone" class="form-label green-text-no">Phone Number</label>
+                        <input type="tel" class="form-control" id="phoneInput" name="Phone" placeholder="Enter your phone number" maxlength="10">
+                    </div>
+                    <div class="mb-3 my-2">
+                        <label for="Email" class="form-label green-text-no">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" name="Email" aria-describedby="emailHelp" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3 my-2">
+                        <label for="issueType" class="form-label green-text-no">Food Category</label>
+                        <select class="form-select" id="issueType" name="Category">
+                            <option value="">Select a Category</option>
+                            <option value="technical">Menu Order</option>
+                            <option value="complain">Specials Order</option>
+                            <option value="general">Catering Order</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 my-2">
+                        <label for="issueType" class="form-label green-text-no">Food Item</label>
+                        <select class="form-select" id="issueType" name="Fooditem">
+                            <option value="">Select an food item</option>
+                            <option value="technical">Platter</option>
+                            <option value="complain">Sandwitch</option>
+                            <option value="general">Burger</option>
+                        </select>
+                    </div>
+                    <div class="mb-3 my-2">
+                        <label for="message" class="form-label green-text-no">Address</label>
+                        <textarea class="form-control" id="message" name="Message" rows="3" placeholder="Enter your Address"></textarea>
+                    </div>
+                    <div class="mb-3 my-2">
+                        <label for="name" class="form-label green-text-no ">Discount Code</label>
+                        <input type="text" class="form-control" id="nameInput" name="discount" placeholder="Enter your Discount code">
+                    </div>
+                    <button type="button" class="btn border-green-line border-2 rounded-0 fs-6 fw-bold green-text my-3">SUBMIT</button>
+                </form>    
+    </div>    
+  </div>
+</div>
+<!-- Order Online -->
+
+<footer class="container-fluid bg-dark py-4">
+  <div class="row align-items-center">
+    <div class="col-lg-5 col-md-6 mb-4 mb-md-0 text-center text-md-start">
+      <h1 class="fw-bolder title display-4 green-text">GREEN <span class="text-dark green-outline">CUISINE</span></h1>
+      <div class="mt-3">
+        <a href="#" class="text-decoration-none me-3"><i class="fa-brands fa-instagram icon green-text-no"></i></a>
+        <a href="#" class="text-decoration-none me-3"><i class="fa-brands fa-facebook icon green-text-no"></i></a>
+        <a href="#" class="text-decoration-none"><i class="fa-brands fa-youtube icon green-text-no"></i></a>
+      </div>
+    </div>
+    <div class="col-lg-7 col-md-6">
+      <ul class="list-unstyled d-flex flex-wrap justify-content-center justify-content-md-end mb-0">
+        <li class="mx-2 my-2"><a class="nav-link green-text-no" href="#">Our Story</a></li>
+        <li class="mx-2 my-2"><a class="nav-link green-text-no" href="#">Privacy Policy</a></li>
+        <li class="mx-2 my-2"><a class="nav-link green-text-no" href="#">Locations</a></li>
+        <li class="mx-2 my-2"><a class="nav-link green-text-no" href="#">Awards</a></li>
+        <li class="mx-2 my-2"><a class="nav-link green-text-no" href="#">Careers</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
