@@ -37,9 +37,7 @@ This project provided hands-on experience with:
 
 ## Challenges and Future Improvements
 
-Challenges faced during development included ensuring consistent styling across different browsers and devices. 
-
-Future improvements could include:
+Challenges faced during development included ensuring consistent styling across different browsers and devices. Future improvements could include:
 
 - Implementing form validation for the reservation modal
 - Adding a backend to handle simulated reservations
@@ -50,6 +48,7 @@ Future improvements could include:
 ## Project UI
 
 Here are some images of the project:
+
 ![GC_!](https://github.com/user-attachments/assets/a00b519b-0f31-4f89-b316-f2f224321504)
 **Home Page**
 
@@ -71,10 +70,8 @@ Here are some images of the project:
 ![GC_8](https://github.com/user-attachments/assets/7a089112-05b0-4035-937f-eb5457df435b)
 **Order Online Page**
 
-![GC_9](https://github.com/user-attachments/assets/f007ad51-c220-4fa4-a624-412c3648353a)
-**Responsive Screen Layout**
-
-![Screenshot 2024-08-06 042152](https://github.com/user-attachments/assets/5c5e9a0d-af68-4183-b79a-2a99d12ca9bc)
-**Responsive Navbar Layout**
+| Responsive Screen Layout | Responsive Navbar Layout |
+|--------------------------|--------------------------|
+| ![Responsive Screen Layout](https://github.com/user-attachments/assets/f007ad51-c220-4fa4-a624-412c3648353a) | ![Responsive Navbar Layout](https://github.com/user-attachments/assets/5c5e9a0d-af68-4183-b79a-2a99d12ca9bc) |
 
 This project serves as a practical exploration of frontend web development techniques, demonstrating how various technologies can be combined to create an engaging website for a restaurant concept.
