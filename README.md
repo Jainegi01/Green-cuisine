@@ -47,31 +47,35 @@ Challenges faced during development included ensuring consistent styling across 
 
 ## Project UI
 
-Here are some images of the project:
+### Desktop Views
 
-![GC_!](https://github.com/user-attachments/assets/a00b519b-0f31-4f89-b316-f2f224321504)
-**Home Page**
+#### Home Page
+![Home Page](https://github.com/user-attachments/assets/a00b519b-0f31-4f89-b316-f2f224321504)
 
-![GC_2](https://github.com/user-attachments/assets/b828820f-5b59-4202-b66f-73519363da8b)
-**Reservation Modal**
+#### Reservation Modal
+![Reservation Modal](https://github.com/user-attachments/assets/b828820f-5b59-4202-b66f-73519363da8b)
 
-![GC_3](https://github.com/user-attachments/assets/9bf8369f-4f4c-4a05-9ac1-958fa8698ac3)
-**Footer**
+#### Footer
+![Footer](https://github.com/user-attachments/assets/9bf8369f-4f4c-4a05-9ac1-958fa8698ac3)
 
-![GC_4](https://github.com/user-attachments/assets/e9ef70a3-5ae6-488a-93ae-3701aa7bfe19)
-**Menu**
+#### Menu
+![Menu](https://github.com/user-attachments/assets/e9ef70a3-5ae6-488a-93ae-3701aa7bfe19)
 
-![GC_6](https://github.com/user-attachments/assets/97580c48-9477-4a6e-a706-a2384dbd577f)
-**Timings and Location**
+#### Timings and Location
+![Timings and Location](https://github.com/user-attachments/assets/97580c48-9477-4a6e-a706-a2384dbd577f)
 
-![GC_7](https://github.com/user-attachments/assets/5b1483a4-bb69-470d-bd78-ff8366616e82)
-**Catering Page**
+#### Catering Page
+![Catering Page](https://github.com/user-attachments/assets/5b1483a4-bb69-470d-bd78-ff8366616e82)
 
-![GC_8](https://github.com/user-attachments/assets/7a089112-05b0-4035-937f-eb5457df435b)
-**Order Online Page**
+#### Order Online Page
+![Order Online Page](https://github.com/user-attachments/assets/7a089112-05b0-4035-937f-eb5457df435b)
 
-| Responsive Screen Layout | Responsive Navbar Layout |
-|--------------------------|--------------------------|
-| ![Responsive Screen Layout](https://github.com/user-attachments/assets/f007ad51-c220-4fa4-a624-412c3648353a) | ![Responsive Navbar Layout](https://github.com/user-attachments/assets/5c5e9a0d-af68-4183-b79a-2a99d12ca9bc) |
+### Mobile Views
+
+#### Responsive Screen Layout
+![Responsive Screen Layout](https://github.com/user-attachments/assets/f007ad51-c220-4fa4-a624-412c3648353a)
+
+#### Responsive Navbar Layout
+![Responsive Navbar Layout](https://github.com/user-attachments/assets/5c5e9a0d-af68-4183-b79a-2a99d12ca9bc)
 
 This project serves as a practical exploration of frontend web development techniques, demonstrating how various technologies can be combined to create an engaging website for a restaurant concept.
